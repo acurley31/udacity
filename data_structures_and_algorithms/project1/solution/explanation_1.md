@@ -1,4 +1,4 @@
-# Data Structures Rationale
+# Data Structures Rationale (LRU Cache)
 **Data structures used:**
 * Hash map
   * Used for fast retrieval (get) and insertion (set) of new items in the cache since both operations are O(1)
