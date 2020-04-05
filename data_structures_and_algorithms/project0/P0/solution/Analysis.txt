@@ -1,0 +1,79 @@
+----------------------------------------
+    Task 0
+----------------------------------------
+Worst Case Scenario Big O Notation: 
+    O(1)
+
+Explanation: 
+    - This task only prints out the first and last values regardless of the input number of records
+    - This means that the task which means the task is on the order of 1 (or the number of instructions)
+
+
+
+----------------------------------------
+    Task 1
+----------------------------------------
+Worst Case Scenario Big O Notation: 
+    O(n)
+
+Explanation:
+    - This task requires a looping over all calls and texts and over both origin and reciever numbers for each record
+    - The approximate time complexity is O((calls + 2) + (texts + 2)) which simplifies to O(n)
+    - This task varies linearly with the length of the inputs
+
+
+
+----------------------------------------
+    Task 2
+----------------------------------------
+Worst Case Scenario Big O Notation: 
+    O(n)
+
+Explanation:
+    - This task requires looping over all the calls to count the time spent over the period
+    - Then, this task requires looping over all numbers to determine the maximum duration
+    - Therefore, this task requires O(number of calls + number of unique numbers) which simplifies to O(n)
+
+
+
+----------------------------------------
+    Task 3
+----------------------------------------
+Worst Case Scenario Big O Notation: 
+    O(n log n)
+
+Explanation:
+    - This task consists of four main parts:
+        (1) Looping over all calls to determine the area code or mobile prefix ~O(n)
+        (2) Sorting the unique code ~O(n log n)
+        (3) Looping over each code to print to screen ~O(n)
+        (4) To calculate the percentage of calls from Bangalore going to Bangalore, this requires looping over all calls ~O(n)
+    - Combining these independent approximations yields:
+        O(n + n log n + n + n) = O(3n + n log n)
+    - In the worst case scenario, this expression becomes dominated by the O(n log n) and therefore this becomes the simplified order
+
+
+
+----------------------------------------
+    Task 4
+----------------------------------------
+Worst Case Scenario Big O Notation: 
+    O(n log n)
+
+Explanation:
+    - This task has four main parts:
+        (1) Looping over all the calls and adding the outgoing numbers to one set and answering numbers to another set ~O(n)
+        (2) Looping over all texts and adding all outgoing/answering numbers to a set ~O(n)
+        (3) Finding the numbers that exist in the outgoing but not the receiving/texting ~O(n) according to "https://wiki.python.org/moin/TimeComplexity"
+        (4) Creating a list and sorting the potential telemarketers ~O(n log n) 
+            (4a) Omitting the O(m) for the creation of a list from the set due to the length of the set being very small
+        (5) Printing each item individually to terminal ~O(n)
+    - Combining these independent approximations yields:
+        O(n + n + n + n log n + n) = O(4n + n log n)
+    - In the worst case scenario, this expression becomes dominated by the O(n log n) and therefore this becomes the simplified order
+
+
+
+
+
+
