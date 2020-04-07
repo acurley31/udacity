@@ -8,4 +8,4 @@
   * Throughout the traversal, each element is compared against the existing min and max values and updated accordingly
   
 **Space Complexity**
-* The space complexity of this algorithm is O(n) for the input array. Only other primitives were needed to solve the task.
+* The space complexity of this algorithm is O(1) since only two other primitives are needed.
