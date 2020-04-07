@@ -4,7 +4,7 @@
 * The solution algorithm for this task exploited the pre-sorted characteristic of subarrays in order to recursively reduce the search pool
 * For this algorithm, the main data structure was an array (the input). No other data structures were needed.
 
-**Time Complexity**
+**Time Complexity (Worst Case)**
 * The time complexity of this solution is O(log n) since the search pool is n/2 for each subsequent search
 
 **Space Complexity**
