@@ -10,4 +10,4 @@
 * The time complexity of this algorithm is O(n) since it requires only a single pass over the input array
 
 **Space Complexity**
-* The space complexity of this algorithm is O(n) since it is an in-place sorting procedure
+* The space complexity of this algorithm is O(1) since it is an in-place sorting procedure
