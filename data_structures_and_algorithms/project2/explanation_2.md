@@ -8,4 +8,4 @@
 * The time complexity of this solution is O(log n) since the search pool is n/2 for each subsequent search
 
 **Space Complexity**
-* The space complexity of this solution is O(n) where n is the length of the input array
+* The space complexity of this solution is O(1) since it is an in-place sorting method
