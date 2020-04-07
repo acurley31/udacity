@@ -6,8 +6,13 @@
   2. Assembling the two largest integer values from the sorted array
 * The data structures used in this solution were lists since the majority of this problem dealt with sorting the input list
 
-**Time Complexity**
+**Time Complexity (Worst Case)**
 * The time complexity of this algorithm can be derived from its two parts:
   1. Merge sort O(n log n)
   2. Looping over the sorted array to assemble the two largest integers O(n)
 * Combining these two time complexities, the result becomes O(n log n) + O(n) ~= O(n log n) since this term will dominate the expression for large n
+
+**Space Complexity**
+* The space complexity of this algorithm is O(n)
+  * While merge sort is a out-of-place procedure, it will require at most O(2n) ~= O(n) space
+  * Any other variables stored are negligible
