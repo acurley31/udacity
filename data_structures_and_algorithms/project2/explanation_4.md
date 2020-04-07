@@ -6,7 +6,7 @@
   * With this in mind, indices tracking the tail of the lead bucket and the start of the rear bucket were followed and updated throughout the single traversal
 * This was an in-place sorting procedure with the data structure of the input being an array
 
-**Time Complexity**
+**Time Complexity (All Cases)**
 * The time complexity of this algorithm is O(n) since it requires only a single pass over the input array
 
 **Space Complexity**
